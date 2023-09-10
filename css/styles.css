@@ -1,0 +1,68 @@
+
+.main-header-name, 
+.header-list-menu-link, 
+.mail, 
+.telephone {
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+    color: black;
+}
+.header-list-menu-link.active{
+    color: blue;
+}
+
+.hero{
+    background: rgb(27, 23, 58);
+}
+
+.hero-heading{
+    text-align: center;
+    font-family: 'roboto', sans-serif; 
+    font-size: 56px;
+    font-weight:700;
+    line-height: 60px;
+    color:white;  
+    text-transform: uppercase;
+}
+.hero-heading-order{
+    color:white; 
+    background: #4d5ae5 ;
+    font-family: 'Roboto', sans-serif;
+}
+.hero2-heading,
+.hero3-heading{
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    font-family: 'roboto', sans-serif;
+
+}
+.features-list,
+.features-list-graph{
+    font-family: 'roboto', sans-serif;
+}
+
+.footer{
+    background: darkslateblue;
+    color:blanchedalmond;
+}
+.footer-link{
+    font-family: 'Roboto', sans-serif;
+    text-decoration:none;
+    color:blanchedalmond;
+    font-size: 20px;
+    height: 24px;
+}
+.footer-link::first-letter{
+    color:red;
+}
+
+.footer-paragraph{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 264px;
+    line-height:24px;
+
+}
