@@ -1,68 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'roboto', sans-serif;
+    background-color: white;
+}
 
 .main-header-name, 
 .header-list-menu-link, 
 .mail, 
 .telephone {
     text-decoration: none;
-    font-family: 'roboto', sans-serif;
     color: black;
 }
-.header-list-menu-link.active{
-    color: blue;
+button{
+    font-family: inherit;
+    border: unset;
+    outline: none;
+    cursor: pointer;
+}
+:root{
+    --iris: #4d5ae5;
+    --navyblue: #2e2f42;
+    --black: black;
+    --ocean: #404bbf;
+    --white: #ffffff;
+    --slate: #434455;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --green: #31d0aa;
+    --lightslate: #8e8f99;
+    --navybluemodal: #2e2f42;
+    --grey: #2E2F42;
+    --dairy: #fcfcfc;
 }
 
+.header-list-menu-link:hover,.mail:hover, .telephone:hover{
+    color: var(--ocean);
+}
+.main-header{
+    background-color: var(white);
+}
+.main-header-name{
+    color: var(--IRIS);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.header-list-menu-link{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.32px;
+}
+
+.mail
+.telephone{
+    color: var(--SLATE);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.32px;
+}
+ul{
+    list-style-type: none;
+}
 .hero{
-    background: rgb(27, 23, 58);
+    background: var(--navyblue);
 }
 
 .hero-heading{
-    text-align: center;
-    font-family: 'roboto', sans-serif; 
+    text-align: center; 
     font-size: 56px;
     font-weight:700;
     line-height: 60px;
     color:white;  
+    font-style: normal;
+    line-height: 60px;
+    letter-spacing: 1.12px;
     text-transform: uppercase;
 }
 .hero-heading-order{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.64px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color:white; 
-    background: #4d5ae5 ;
-    font-family: 'Roboto', sans-serif;
+    background: var(--iris) ; 
+   /* padding: 16px 32px;   */
 }
 .hero2-heading,
 .hero3-heading{
-    text-align: center;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-    font-family: 'roboto', sans-serif;
+    color: var(--navyblue);
+text-align: center;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.72px;
+text-transform: capitalize;
 
 }
-.features-list,
+.features-list{
+    color: var(--navyblue);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.4px;
+}
 .features-list-graph{
-    font-family: 'roboto', sans-serif;
+    color: var(--slate);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
 
+.hero3-heading-names{
+    color: var(--navyblue);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.hero3-designation{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.32px;
+}
 .footer{
-    background: darkslateblue;
-    color:blanchedalmond;
+    background: var(--navyblue);
 }
 .footer-link{
-    font-family: 'Roboto', sans-serif;
-    text-decoration:none;
-    color:blanchedalmond;
-    font-size: 20px;
-    height: 24px;
-}
-.footer-link::first-letter{
-    color:red;
+    color: var(--iris);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 
 .footer-paragraph{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    color: var(--cloud);
     font-size: 16px;
-    width: 264px;
-    line-height:24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 
 }
